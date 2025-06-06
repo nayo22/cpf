@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Polloc's Board</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+ 
+  <div id="auth-screen">
+    <h2>Iniciar sesión o registrarse</h2>
+    <div id="login-form"></div>
+    <div id="register-form"></div>
+  </div>
+
+  <div id="onboarding-screen" style="display: none;">
+    <div id="name-selector"></div>
+    <div id="letter-selector"></div>
+    <div id="color-selector"></div>
+    <button id="start-game-btn">Comenzar juego</button>
+  </div>
+
+
+  <div id="game-screen" style="display: none;">
+    <h3>Polloc's Board</h3>
+    <div id="board-container"></div>
+  </div>
+
+
+  <script type="module" src="/src/root/RootApp.ts"></script>
+</body>
+</html>

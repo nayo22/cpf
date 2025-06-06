@@ -1,4 +1,4 @@
-import { registerUser } from "../Services/AutService";
+import { registerUser } from "../services/AuthService";
 
 class RegisterForm extends HTMLElement {
   shadow: ShadowRoot;
