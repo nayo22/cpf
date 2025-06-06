@@ -1,5 +1,5 @@
-import { claimCell, subscribeToBoard } from '../services/firebase/board-service';
-import { getUserData } from '../utils/localstorage';
+import { claimCell, subscribeToBoard } from '../services/Board-Service';
+import { getUserData } from '../Utils/Localstorage';
 
 const GRID_SIZE = 500;
 
